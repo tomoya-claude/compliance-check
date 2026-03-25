@@ -297,6 +297,13 @@ st.markdown("""
     [data-testid="stSidebar"] {
         background: #f1f5f9;
     }
+    [data-testid="stSidebar"] [data-testid="stImage"] {
+        background: transparent;
+    }
+    [data-testid="stSidebar"] [data-testid="stImage"] img {
+        background: transparent;
+        mix-blend-mode: multiply;
+    }
     .keyword-badge {
         display: inline-block;
         background: #e2e8f0;
