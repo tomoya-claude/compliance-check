@@ -212,7 +212,7 @@ def check_person(name, progress_callback=None, num_results=10, pause_sec=3):
 
 # --- ページ設定 ---
 st.set_page_config(
-    page_title="コンプライアンスチェック",
+    page_title="コンプラチェックマン",
     page_icon="🔍",
     layout="wide",
 )
@@ -368,7 +368,7 @@ with col_logo:
 with col_text:
     st.markdown("""
     <div>
-        <h1 style="color: #1B3A6B; margin: 0; font-size: 1.8rem;">コンプライアンスチェック</h1>
+        <h1 style="color: #1B3A6B; margin: 0; font-size: 1.8rem;">コンプラチェックマン</h1>
         <p style="color: #666; margin: 0;">個人名を入力してネガティブワード検索を自動実行します</p>
     </div>
     """, unsafe_allow_html=True)
